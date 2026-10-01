@@ -1,0 +1,18 @@
+# どのフォルダ階層にある venv もすべて除外
+**/venv/
+**/.venv/
+**/__pycache__/
+
+# AIモデルや大容量データ
+*.pt
+*.pth
+*.onnx
+*.h5
+
+# スライド・PDF・表計算ファイル
+*.pdf
+*.ppt
+*.pptx
+*.xlsx
+*.zip
+*.tar.gz
