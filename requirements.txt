@@ -1,0 +1,17 @@
+numpy
+pandas
+librosa
+matplotlib
+seaborn
+scikit-learn
+soundfile
+sounddevice
+hear21passt
+torch 
+torchvision 
+torchaudio
+torchlibrosa
+flask
+pydub
+ffmpeg
+# 必要に応じて scikit-learn や jupyter などを追記

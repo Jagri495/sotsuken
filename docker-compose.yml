@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    volumes:
+      - .:/workspace  # ホスト側のsotsukenフォルダとコンテナ内のworkspaceを同期
+    tty: true         # コンテナを起動したまま維持する
